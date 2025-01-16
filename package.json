@@ -1,0 +1,31 @@
+{
+  "name": "snake-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "pre-commit": "tsc index.ts"
+  },
+  "keywords": [],
+  "author": "abhikatta",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhikatta/snake-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhikatta/snake-server/issues"
+  },
+  "homepage": "https://github.com/abhikatta/snake-server#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/ws": "^8.5.13",
+    "husky": "^9.1.7"
+  }
+}
