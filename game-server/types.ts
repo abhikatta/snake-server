@@ -43,7 +43,7 @@ export type Score = {
 export type Snake = {
   centerX: number;
   centerY: number;
-
+  score: number;
   size: { length: number; width: number };
 
   canvas: HTMLCanvasElement | null;
